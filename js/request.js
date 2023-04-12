@@ -1,5 +1,5 @@
   const headers= {
-    'Authorization': 'Bearer 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',
+    'Authorization': 'Bearer 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',
     'Content-Type': 'application/json'
   };
 

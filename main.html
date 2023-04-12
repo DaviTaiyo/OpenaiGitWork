@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Atividade OpenAI</title>
 </head>
 <body>
     <form id="generate-form">
@@ -13,10 +14,11 @@
         <input type="text" id="game-name" name="game-name" required>
         <button type="submit">Consultar</button>
       </form>
-      <section id="generated-text"></section>
-      
-
-    
+      <div class="Container">
+        <div class="center">
+            <section id="generated-text"></section>
+        </div>
+      </div>
 </body>
     <script src="js/request.js"></script>
 </html>
